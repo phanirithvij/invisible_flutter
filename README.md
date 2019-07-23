@@ -1,16 +1,5 @@
-# flutter_transparent_app
+# invisible_flutter
 
 More info https://github.com/flutter/flutter/issues/28844#issuecomment-478939888
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+This app demos the flutter navigation-basics tutorial from the official flutter [cookbook](https://flutter.dev/docs/cookbook/navigation/navigation-basics) but makes it transparent.
