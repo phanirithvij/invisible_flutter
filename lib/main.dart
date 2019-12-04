@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
-void main() => runApp(RootWidget());
+void main() {
+  SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.bottom]);
+    runApp(RootWidget());
+}
 
 class RootWidget extends StatelessWidget {
   @override
@@ -24,7 +28,7 @@ class FirstRoute extends StatelessWidget {
       ),
       body: Center(
         child: RaisedButton(
-          child: Text('Open route'),
+          child: Text('Open another route'),
           onPressed: () {
             // Navigate to second route when tapped.
             Navigator.push(
@@ -74,7 +78,7 @@ class MyHome extends StatelessWidget {
       backgroundColor: Colors.transparent,
       body: Center(
         child: RaisedButton(
-          child: Text("Help me help u"),
+          child: Text("Open first Route"),
           onPressed: () {
             Navigator.push(
               context,
