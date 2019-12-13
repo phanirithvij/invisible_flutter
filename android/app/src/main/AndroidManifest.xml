@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.invisible_flutter">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
@@ -9,11 +10,14 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="invisible_flutter"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:allowBackup="false"
+        android:fullBackupContent="false">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.Transparent"
+            android:theme="@style/Theme.Lawnchair.BaseTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">

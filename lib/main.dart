@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 void main() {
+  runApp(RootWidget());
   SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.bottom]);
-    runApp(RootWidget());
 }
 
 class RootWidget extends StatelessWidget {
@@ -65,7 +65,6 @@ class SecondRoute extends StatelessWidget {
     );
   }
 }
-
 
 class MyHome extends StatelessWidget {
   const MyHome({
